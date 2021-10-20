@@ -1,14 +1,30 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command Line Readme Outline Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sean O'Very",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanOVery/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "command",
+    "line",
+    "node",
+    "inquirer"
+  ],
+  "bugs": {
+    "url": "https://github.com/SeanOVery/readme-generator/issues"
+  },
+  "homepage": "https://github.com/SeanOVery/readme-generator#readme"
 }
