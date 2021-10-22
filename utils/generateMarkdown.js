@@ -4,16 +4,12 @@ function renderLicenseSection(license) {
   switch(license) {
     case 'MIT':
       return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-      break;
     case 'Apache':
       return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-      break;
     case 'GPL':
       return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-      break;
     case 'ISC':
       return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
-      break;
     default:
       return ``
   }
@@ -27,8 +23,15 @@ function generateMarkdown(data) {
   
   ${data.description}
   
-  ## Table of contents
+  ## License
+  ${renderLicenseSection(data.license)}
   
+  ## Table of contents
+  1. [Installation](##-Installation)
+  2. [Usage](##-Usage)
+  3. [Contributing](##-Contributing)
+  4. [Tests](##-Tests)
+  5. [Questions](##-Questions)
   ## Installation
   
   ${data.install}
@@ -49,8 +52,7 @@ function generateMarkdown(data) {
   Contact:
   Github: ${data.username}
   Email: ${data.email}
-  ## License
-  ${renderLicenseSection(data.license)}
+
 `;
 }
 

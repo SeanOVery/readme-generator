@@ -72,7 +72,6 @@ function init() {
     .prompt(questions)
     .then(response => {
       data = response
-      console.log(data)
       fileName = `${data.title}-README.MD`
       writeToFile(fileName, data)
     })
