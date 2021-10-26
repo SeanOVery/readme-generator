@@ -27,11 +27,11 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
   
   ## Table of contents
-  1. [Installation](##-Installation)
-  2. [Usage](##-Usage)
-  3. [Contributing](##-Contributing)
-  4. [Tests](##-Tests)
-  5. [Questions](##-Questions)
+  1. [Installation](#-Installation)
+  2. [Usage](#-Usage)
+  3. [Contributing](#-Contributing)
+  4. [Tests](#-Tests)
+  5. [Questions](#-Questions)
   ## Installation
   
   ${data.install}

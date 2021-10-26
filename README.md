@@ -5,11 +5,11 @@
 A node based command line program to generate a basic readme for any project!
 
 ## Table of contents
-1. [Installation](##Installation)
-2. [Usage](##Usage)
-3. [Contributing](##Contributing)
-4. [Tests](##Tests)
-5. [Questions](##Questions)
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Contributing](#Contributing)
+4. [Tests](#Tests)
+5. [Questions](#Questions)
 ## Installation
 Download/clone the files from the repository then in your CLI navigate to the local directory you've downloaded/cloned the files to and run
 
